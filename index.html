@@ -20,11 +20,12 @@
             <div class="container">
                 
             <div class="col-sm-10 col-offset-1 mx-auto">
-                <h1 class="font-weight-bold">welcome! to my first web</h1>
-                <p>Lorem ipsum, a quaeit laboriosam accusamus magni id eum corporis praesentium?</p>
+                <h1 class="font-weight-bold">welcome! to my first bootstrap wbsite</h1>
+                <p>On this dummy site youn can only navigate through the customised components</p>
               
-                    <button class="btn btn-primary btn-lg">Explore</button>
-                    <button class="btn btn-primary btn-lg">Explore</button>
+                    <a type="button" class="btn btn-primary btn-lg" href="#about-us">Explore  &darr;</a>
+
+                    
                 </form>
             </div>
             </div>
@@ -35,9 +36,9 @@
    
 
 <!-- nav-bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <!-- brand-link -->
-        <a class="navbar-brand logo" href="#">myBrand</a>
+        <a class="navbar-brand logo" href="#">CROOZ</a>
 
         <!-- nav-tootgle-btn -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,12 +59,12 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
+                More
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Our product</a>
+                <a class="dropdown-item" href="#">Visit our webinar</a>
+                <a class="dropdown-item" href="#">Sign in to our nws letters</a>
               </div>
             </li>
           </ul>
@@ -78,12 +79,12 @@
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 
   <!-- indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+  <ul class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active">x</li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-  </ol>
+  </ul>
 
   <!-- carousel images -->
   <div class="carousel-inner">
@@ -95,7 +96,7 @@
       <!-- item1-caption -->
       <div class="carousel-caption d-md-block">
         <h5>From the world of Photography</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <p>Her is our very first image. </p>
       </div>
     </div>
 
@@ -153,7 +154,7 @@
 <section id="what-we-do">
   <div class="section-content">
     <div class="container">
-      <h5>what we do</h5>
+      <h1 class="mb-1">This is a little information on what we do</h1>
       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, placeat? Officiis cumque, omnis culpa beatae maxime nulla nostrum placeat itaque ipsa dolores expedita ullam odit, voluptates ex dolorum exercitationem voluptatibus.</p>
 
       <!-- the cards -->
@@ -161,7 +162,7 @@
         <div class="card">
           <img src="img/ipad.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">You could browse arround </h5>
+            <h5 class="card-title">Feel fre to browse arround </h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
           <div class="card-footer">
@@ -223,7 +224,10 @@
 <section id="news">
   <div class="section-content">
     <div class="container">
-      <h2 class="lead">Latest News</h2>
+      <h1 class="text-center mb-md-4">Latest News</h1>
+
+
+      
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, quaerat perspiciatis qui perferendis illum, numquam hic ex magnam voluptates consequatur quae voluptas enim, tenetur doloribus sapiente fugit harum obcaecati! Aperiam.</p>
     
       <!-- the gallery of cards -->
@@ -249,16 +253,7 @@
           </blockquote>
         </div>
 
-        <div class="card">
-          <img src="img/mic.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-
-        <div class="card bg-primary text-white text-center p-3">
+        <div class="card bg-secondary text-white text-center p-3">
           <blockquote class="blockquote mb-0">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
             <footer class="blockquote-footer text-white">
@@ -269,30 +264,23 @@
           </blockquote>
         </div>
 
-       
-
         <div class="card">
-          <img src="img/working.jpg" class="card-img-top" alt="...">
-        </div>
-
-        <div class="card p-3 text-right">
-          <blockquote class="blockquote mb-0">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer class="blockquote-footer">
-              <small class="text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
-              </small>
-            </footer>
-          </blockquote>
-        </div>
-
-        <div class="card">
+          <img src="img/mic.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
+
+       
+
+       
+
+       
+
+     
+
 
       </div>
     
